@@ -25,7 +25,6 @@ app.post("/login",(req,res)=>{
             }
             else{
                 res.json("the password is incorrect")
-              
             }
         }
         else{
